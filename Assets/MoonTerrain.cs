@@ -33,8 +33,8 @@ public class MoonTerrain : MonoBehaviour
 
         GenerateTarrain();
 
-        leftTrigger.position = new Vector3(-3, 100, 0);
-        rightTrigger.position = new Vector3(length*2+2,100,0);    
+        leftTrigger.position = new Vector3(-3, leftTrigger.position.y, 0);
+        rightTrigger.position = new Vector3(length*2+2, rightTrigger.position.y, 0);    
 
     }
 
